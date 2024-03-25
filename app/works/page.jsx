@@ -11,8 +11,8 @@ const Works = () => {
 
   return (
     <div className={` relative text-white mt-[5rem] mb-16 `}>
-        <button className={` absolute top-[-4rem] left-16 tracking-wider rounded-2xl shadow-inner text-white p-3 px-4 bg-[#671e67] hover:bg-[#411b41] ${bagelFatOne.className}`}> <Link href="/">Go Back</Link> </button>
-        <div className={`text-[5rem] mt-[10rem] ms-[10rem] flex w-[80%] justify-start mb-16 tracking-wider ${bagelFatOne.className}`}>
+        <button className={` absolute top-[-4rem] max-[400px]:top-[-5rem] left-16 tracking-wider rounded-2xl shadow-inner text-white p-3 px-4 bg-[#671e67] hover:bg-[#411b41] ${bagelFatOne.className}`}> <Link href="/">Go Back</Link> </button>
+        <div className={`text-[5rem] mt-[10rem] ms-[10rem] max-[400px]:ms-[5rem] max-[400px]:text-[3rem] flex w-[80%] justify-start mb-16 tracking-wider ${bagelFatOne.className}`}>
             My Works
         </div>                                    
         <div className='flex justify-center w-full'>   

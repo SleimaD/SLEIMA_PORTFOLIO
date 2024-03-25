@@ -11,7 +11,7 @@ const Designs = () => {
 
         <button className={` absolute top-[-4rem] left-16 tracking-wider rounded-2xl shadow-inner text-white p-3 px-4 bg-[#671e67] hover:bg-[#411b41] ${bagelFatOne.className}`}> <Link href="/">Go Back</Link> </button>
 
-        <div className={` text-[5rem] ms-[10rem] mb-16 mt-[8rem] tracking-wider text-white ${bagelFatOne.className} `}>
+        <div className={` text-[5rem] ms-[10rem] mb-16 mt-[8rem] max-[400px]:ms-[3rem] max-[400px]:text-[3rem] tracking-wider text-white ${bagelFatOne.className} `}>
             My Designs  
         </div>           
 
