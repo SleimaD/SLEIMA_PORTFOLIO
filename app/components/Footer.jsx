@@ -9,9 +9,10 @@ const Footer = () => {
         
         <div className={`w-full flex justify-center items-center gap-10 ${bagelFatOne.className}`}>
             <div className="flex justify-center items-center">
-            <button
+            <a
                 className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
                 href="https://github.com/SleimaD"
+                target="_blank"
             >
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -31,13 +32,14 @@ const Footer = () => {
                 >
                 GitHub
                 </span>
-            </button>
+            </a>
             </div>
 
             <div className="flex justify-center items-center">
-                <button
-                    href="www.linkedin.com/in/sleima-ducros-2b0414209"
+                <a
+                    href="https://linkedin.com/in/sleima-ducros-2b0414209"
                     className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-[#3b48b7] from-gray-800 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+                    target="_blank"
                 >
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +60,7 @@ const Footer = () => {
                     >
                     Linkedin
                     </span>
-                </button>
+                </a>
             </div>
 
 
