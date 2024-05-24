@@ -108,6 +108,16 @@
     "description": "to-do list",
     "challenges": "display each entered task and have an option to delet edit or validate a task.",
     "tools": "HTML,CSS,Javascript"
+  },
+  {
+    "id": "11",
+    "name":"Online Book Store",
+    "image": "/bookstoredark.png",
+    "alt": "bookstore",
+    "websiteUrl": "https://sleima-projetfinal.vercel.app/",
+    "description": "Online Book Store",
+    "challenges": "An online bookstore where you can buy your favorite books. This project was the culminating work of my front-end learning journey. I'm proud of it because it involved assembling everything I learned about front-end development, including JavaScript, HTML-CSS, React, Redux, and Next.js.",
+    "tools": "next.js, Redux, book's api"
   }
   
 ]

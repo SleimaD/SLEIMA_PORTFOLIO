@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <div className=" w-full flex items-center justify-between h-[110px] text-white bg-[#5c118150] p-5 backdrop-blur-xl">
+    <div className=" w-full mb-0 bottom-0 flex items-center justify-between h-[160px] text-white bg-[#5c118150] p-5 backdrop-blur-xl">
         
         <div className={`w-full flex justify-center items-center gap-10 ${bagelFatOne.className}`}>
             <div className="flex justify-center items-center">

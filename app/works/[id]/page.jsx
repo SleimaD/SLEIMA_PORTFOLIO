@@ -12,7 +12,7 @@ const WorkDetail = ({
   params:{id}
 }) => {
   const router = useRouter();
-  const [work, setWork] = useState(worksData);
+  const [work, setWork] = useState(worksData); 
   
   
     return (
@@ -31,10 +31,10 @@ const WorkDetail = ({
             </div>
           </div>
           
-          <div className='text-white flex flex-col gap-5 w-[35%] max-[400px]:w-[90%] justify-center mt-10'>
-            <p className={` tracking-wider text-2xl ${bagelFatOne.className}`}>description : <span className=' font-mono text-[1.5rem]'>{worksData[id].description}</span></p>
-            <p className={` tracking-wider text-2xl ${bagelFatOne.className}`}>challenges : <span className=' font-mono text-[1.5rem]'>{worksData[id].challenges}</span></p>
-            <p className={` tracking-wider text-2xl ${bagelFatOne.className}`}>Tools : <span className=' font-mono text-[1.5rem]'>{worksData[id].tools}</span></p>
+          <div className='glass text-white flex flex-col gap-5 w-[35%] max-[400px]:w-[90%] justify-center mt-10'>
+            <p className={` tracking-wider text-2xl ${bagelFatOne.className}`}>description : <span className=' font-mono text-[0.9rem]'>{worksData[id].description}</span></p>
+            <p className={` tracking-wider text-2xl ${bagelFatOne.className}`}>challenges : <span className=' font-mono text-[0.9rem]'>{worksData[id].challenges}</span></p>
+            <p className={` tracking-wider text-2xl ${bagelFatOne.className}`}>Tools : <span className=' font-mono text-[0.9rem]'>{worksData[id].tools}</span></p>
           </div>
         </div>
         

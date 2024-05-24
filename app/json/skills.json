@@ -56,10 +56,6 @@
       "image": "/django.png"
     },
     {
-      "name": "MongoDB",
-      "image": "/mongodb.png"
-    },
-    {
       "name": "MySQL",
       "image": "/mysql.png"
     }
