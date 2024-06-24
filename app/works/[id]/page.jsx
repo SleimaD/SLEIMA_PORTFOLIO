@@ -39,7 +39,7 @@ const WorkDetail = ({
         </div>
         
         <div className=' w-full flex justify-center items-center mt-[6rem] max-[400px]:mt-[3rem]'>
-          <a className={` tracking-wider text-white bg-[#2d102f5d] hover:bg-[#2d102fb9] border-[#94399a] border-2 rounded-2xl p-3 ${bagelFatOne.className}`} href={worksData[id].websiteUrl} target="_blank" rel="noopener noreferrer">Visit website</a>
+          <a className={` tracking-wider text-white bg-[#2d102f5d] hover:bg-[#2d102fb9] border-[#94399a] border-2 rounded-2xl p-3 ${bagelFatOne.className}`} href={worksData[id].websiteUrl} target="_blank" rel="noopener noreferrer">Visit </a>
         </div>
          
       </div>

@@ -34,7 +34,7 @@
     "name":"Shi-Fu-Mi",
     "image": "/shifumi.png",
     "alt": "shifumi",
-    "websiteUrl": "https://sleimad.github.io/Sleima_ShiFuMi/",
+    "websiteUrl": "https://sleimad.github.io/Sleima_ShiFuMi2/",
     "description": "shi fu mi game.",
     "challenges":"play against the computer. You chose a between 3 options and the computer choses a random option, ",
     "tools":"React.js"
@@ -71,36 +71,6 @@
   },
   {
     "id": "7",
-    "name":"Counter",
-    "image": "/counter.png",
-    "alt": "counter",
-    "websiteUrl": "https://sleimad.github.io/SLEIMA_THANATHOS/",
-    "description": "counter for followers",
-    "challenges": "make a nice counter",
-    "tools": "HTML,CSS,Javascript"
-  },
-  {
-    "id": "8",
-    "name":"Drink Water",
-    "image": "/drinkwater.png",
-    "alt": "drinkwater",
-    "websiteUrl": "https://sleimad.github.io/SLEIMA_DRINK-WATER/",
-    "description": "website to track the amount of water drunk per day",
-    "challenges": "fill the large glass with the click of each small glass",
-    "tools": "HTML,CSS,Javascript"
-  },
-  {
-    "id": "9",
-    "name":"Password Generator",
-    "image": "/passwordgenerator.png",
-    "alt": "passwordgenerator",
-    "websiteUrl": "https://sleimad.github.io/SLEIMA_PASSWORD-GENERATOR/",
-    "description": "website to generate a random password and copy and paste it",
-    "challenges": "make a logic to generate a password based on the checked elements",
-    "tools": "HTML,CSS,Javascript"
-  },
-  {
-    "id": "10",
     "name":"To-Do List",
     "image": "/todolist.png",
     "alt": "todolist",
@@ -110,14 +80,24 @@
     "tools": "HTML,CSS,Javascript"
   },
   {
-    "id": "11",
+    "id": "8",
     "name":"Online Book Store",
     "image": "/bookstoredark.png",
     "alt": "bookstore",
     "websiteUrl": "https://sleima-projetfinal.vercel.app/",
     "description": "Online Book Store",
-    "challenges": "An online bookstore where you can buy your favorite books. This project was the culminating work of my front-end learning journey. I'm proud of it because it involved assembling everything I learned about front-end development, including JavaScript, HTML-CSS, React, Redux, and Next.js.",
+    "challenges": "This is An online bookstore where you can buy your favorite books. This project was the culminating work of my front-end learning journey. I'm proud of it because it involved assembling everything I learned about front-end development, including JavaScript, HTML-CSS, React, Redux, and Next.js.",
     "tools": "next.js, Redux, book's api"
+  },
+  {
+    "id": "9",
+    "name":"Royella",    
+    "image": "/royella.png",
+    "alt": "Royella",
+    "websiteUrl": "https://github.com/SleimaD/Royella_SleimaDucros.git",
+    "description": "Hotel Reservation System",
+    "challenges": "This Full Stack project is a hotel reservation system. It allows users to book a room and view their reservations. The project was a culmination of my back-end learning journey and involved assembling everything I learned from coding, including Python, Django, React and MySQL.",
+    "tools": "Django, React, Mysql, Bootstrap, Tailwind"
   }
   
 ]

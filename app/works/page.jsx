@@ -22,7 +22,7 @@ const Works = () => {
                         <Image src={element.image} width={1400} height={850} alt={element.alt} /> 
                         <div className={` flex justify-center tracking-wider mt-2 mb-2 ${bagelFatOne.className}`}>{element.alt}</div>
                         <div className='flex justify-center items-center gap-14  p-3'>
-                           <a href={element.websiteUrl} target='_blank' className={` tracking-wider bg-[#512d65] hover:bg-[#aa5bd1] p-2 px-3 rounded-xl shadow-inner  ${bagelFatOne.className}`}>visit website</a>
+                           <a href={element.websiteUrl} target='_blank' className={` tracking-wider bg-[#512d65] hover:bg-[#aa5bd1] p-2 px-3 rounded-xl shadow-inner  ${bagelFatOne.className}`}>visit </a>
                             <button className={` tracking-wider bg-[#512d65] hover:bg-[#aa5bd1] p-2 px-3 rounded-xl shadow-inner  ${bagelFatOne.className}`} onClick={() => {router.push(`/works/${element.id}`)}}>
                                     details
                             </button>
